@@ -224,6 +224,13 @@
                 <version>${match.version}</version>
             </dependency>
 
+            <!-- 搭子-->
+            <dependency>
+                <groupId>com.match</groupId>
+                <artifactId>match-match</artifactId>
+                <version>${match.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -234,6 +241,7 @@
         <module>match-quartz</module>
         <module>match-generator</module>
         <module>match-common</module>
+        <module>match-match</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -68,6 +68,12 @@
             <artifactId>match-generator</artifactId>
         </dependency>
 
+        <!-- 搭子模块 -->
+        <dependency>
+            <groupId>com.match</groupId>
+            <artifactId>match-match</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
