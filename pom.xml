@@ -2,22 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	
+    <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.match</groupId>
     <artifactId>match</artifactId>
     <version>1.0.0</version>
 
     <name>match</name>
     <url>http://www.ruoyi.vip</url>
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-autoconfigure</artifactId>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <!--    <dependencies>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-autoconfigure</artifactId>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
     <description>搭子配</description>
-    
+
     <properties>
         <match.version>1.0.0</match.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

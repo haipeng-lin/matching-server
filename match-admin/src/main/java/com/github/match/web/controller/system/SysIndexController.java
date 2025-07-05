@@ -12,9 +12,10 @@ import com.github.match.common.utils.StringUtils;
  * @author github.match
  */
 @RestController
-public class SysIndexController
-{
-    /** 系统基础配置 */
+public class SysIndexController {
+    /**
+     * 系统基础配置
+     */
     @Autowired
     private MatchConfig matchConfig;
 
@@ -22,8 +23,7 @@ public class SysIndexController
      * 访问首页，提示语
      */
     @RequestMapping("/")
-    public String index()
-    {
+    public String index() {
         return StringUtils.format("欢迎使用{}后台管理框架，当前版本：v{}，请通过前端地址访问。", matchConfig.getName(), matchConfig.getVersion());
     }
 }
